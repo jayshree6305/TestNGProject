@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-14T17:53:00 IST" name="Default suite" finished-at="2022-04-14T17:53:16 IST" duration-ms="16637">
+    <groups>
+    </groups>
+    <test started-at="2022-04-14T17:53:00 IST" name="Default test" finished-at="2022-04-14T17:53:16 IST" duration-ms="16637">
+      <class name="TestCases.verifySignIn">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.verifySignIn@3ee37e5a]" started-at="2022-04-14T17:53:00 IST" name="launchBrowser" finished-at="2022-04-14T17:53:04 IST" duration-ms="4308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="entervalue(java.lang.String,java.lang.String)[pri:0, instance:TestCases.verifySignIn@3ee37e5a]" started-at="2022-04-14T17:53:04 IST" name="entervalue" data-provider="demo" finished-at="2022-04-14T17:53:10 IST" duration-ms="5423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secure123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entervalue -->
+        <test-method signature="entervalue(java.lang.String,java.lang.String)[pri:0, instance:TestCases.verifySignIn@3ee37e5a]" started-at="2022-04-14T17:53:10 IST" name="entervalue" data-provider="demo" finished-at="2022-04-14T17:53:16 IST" duration-ms="6596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secure345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entervalue -->
+        <test-method is-config="true" signature="quitdriver()[pri:0, instance:TestCases.verifySignIn@3ee37e5a]" started-at="2022-04-14T17:53:16 IST" name="quitdriver" finished-at="2022-04-14T17:53:16 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitdriver -->
+      </class> <!-- TestCases.verifySignIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
